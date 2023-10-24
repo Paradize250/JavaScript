@@ -1,0 +1,23 @@
+*{
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bookend{
+    height: 100vh;
+}
+.photo {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+img {
+    width: 100%;
+    transform-origin: center;
+}
+
+.zoomed {
+    transform: scale(1.5); /* Adjust the zoom level as needed */
+}
